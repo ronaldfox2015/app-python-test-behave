@@ -1,0 +1,13 @@
+enviroment:
+  dev:
+    protocol: "https"
+    sub_domain: "dev4c.services.aptitus.com/v1/masterdata"
+  pre: 
+    protocol: "https"
+    sub_domain: "services.urbania.pe/v2/search/announcement"
+  prod: 
+    protocol: "https"
+    sub_domain: "services.aptitus.com/v1/masterdata"
+  local:
+    protocol: "http"
+    sub_domain: "local.services.urbania.pe/v2/search/announcement"
